@@ -1,0 +1,13 @@
+#intro {
+  background: linear-gradient(rgba(155, 207, 181, 1), rgba(0,0,0,0.8)), 
+              url('https://cs.pikabu.ru/post_img/2013/11/19/8/1384861896_533952830.jpg') 0% 0%/cover;
+}
+
+.myRowIntro{
+	min-height: 100vh;
+}
+
+
+.text-white-70 {
+  color: rgba(255,255,255,0.7)
+}

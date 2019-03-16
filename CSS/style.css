@@ -1,13 +1,35 @@
 #intro {
-  background: linear-gradient(rgba(155, 207, 181, 1), rgba(0,0,0,0.8)), 
-              url('https://cs.pikabu.ru/post_img/2013/11/19/8/1384861896_533952830.jpg') 0% 0%/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), 
+              url('https://rostovgazeta.ru/attachments/cb887445d4ea4767e65b2a08e0bc0cab6e4c4a32/store/fill/780/440/5e475f56438d67bf30ad067a00bd475c80b546910222425424dd1b1b85d3/smeta-na-remont-krovli.jpg') 0% 0%/cover;
 }
 
-.myRowIntro{
+/*
+#fullInfo {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 0% 0%/cover;
+}
+*/
+
+.fullScreen{
 	min-height: 100vh;
 }
 
+.screen-50{
+	min-height: 50vh;
+}
 
-.text-white-70 {
-  color: rgba(255,255,255,0.7)
+
+.text-white-85 {
+  color: rgba(255,255,255,0.85)
+}
+
+.text-black-40 {
+  color: rgba(0,0,0,0.4)
+}
+
+.text-black-60 {
+  color: rgba(0,0,0,0.6)
+}
+
+.text-error {
+	color: rgb(193, 0, 32, 0.7);
 }
